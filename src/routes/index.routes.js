@@ -6,6 +6,7 @@ import {getquery} from '../controllers/index.controller.js';
 
 const router = Router();
 
-router.get("/ping",getquery);
+router.get("/ping",getquery );
+
 
 export default router;
